@@ -57,3 +57,5 @@ Packages/
 # Bundler
 .bundle/
 bundle/
+
+bazel-*

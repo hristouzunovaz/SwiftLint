@@ -1,0 +1,3 @@
+build \
+  --macos_minimum_os=10.12 \
+  --host_macos_minimum_os=10.15
