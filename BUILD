@@ -6,7 +6,7 @@ load(
 
 swift_library(
     name = "SwiftLintFramework",
-    srcs = glob(["Source/SwiftLintFramework/**/*.swift"]),
+    srcs = glob(["Source/SwiftLintFramework/**/*.swift"]) + ["@swiftlint_extra_swift_sources//:extra_swift_srcs"],
     module_name = "SwiftLintFramework",
     visibility = ["//visibility:public"],
     deps = [
